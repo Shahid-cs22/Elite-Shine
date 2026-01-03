@@ -21,10 +21,10 @@ const Footer = () => {
                     <p className="footer-item">✉️ seyadabu887@hmail.com</p>
 
                     <div className="social-icons">
-                        <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><TwitterIcon /></a>
-                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
+                         <a href="https://www.instagram.com/elite_shine_car_wash_/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
+                        <a href="https://www.facebook.com/share/1HCTgGZcrj/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
                         <a href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><YouTubeIcon /></a>
-                        <a href="https://www.instagram.com/elite_shine_car_wash_/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
+                       
 
                     </div>
                 </div>
