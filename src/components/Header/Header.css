@@ -1,0 +1,80 @@
+/* NAVBAR */
+.main-navbar {
+  background: #202c45;
+  padding: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* LOGO */
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ff1c1c;
+}
+
+/* NAV LINKS */
+.nav-links .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link:focus {
+  color: #ff1c1c !important;
+}
+
+/* BUTTON */
+.appointment-btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e81c2e;
+  background: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 22px;
+  text-align: center;
+
+  box-shadow: inset 0 0 0 0 #e81c2e;
+  transition: ease-out 0.5s;
+}
+
+.appointment-btn:hover {
+  color: #ffffff;
+  background: #e81c2e;
+  box-shadow: inset 200px 0 0 0 #e81c2e;
+}
+
+/* TOGGLE */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+  .nav-links {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .nav-links .nav-link {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  .appointment-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
